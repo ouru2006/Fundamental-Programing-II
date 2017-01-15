@@ -1,0 +1,10 @@
+Test 1 (isEmpty): passed
+Test 2 (length): passed
+Test 3 (insert): passed
+Test 4 (retrieve): passed
+Test 5 (removeHead): passed
+Test 6 (remove from empty list): passed
+Test 7 (multiple inserts and remove head): passed
+Test 8 (insert at end): passed
+Test 9 (remove from middle): passed
+Test 10 (general test): passed

@@ -1,0 +1,27 @@
+
+        
+        
+        
+        int Num=0;
+        //check integer;
+        for(int i=0;i<list.getLength();i++){
+           if(precedence(list.retrieve(i))==0){
+              try{
+                 int number= Integer.parseInt(list.retrieve(i));
+              }catch(NumberFormatException e){
+                 result="<noninteger>";
+                 return result;
+              } 
+              Num++;          
+           }
+           
+        }
+       
+        
+        //check syntax
+        if(2*Num-list.getLength()!=1){
+             result="<syntax error>";
+             return result;
+        }
+        
+        //evaluate

@@ -1,0 +1,11 @@
+TA 2 1
+TA 11 2
+TA 9 3
+TA 6 5
+TA 1 9
+TA 5 13
+TD 11 2
+TD 1 19
+SC
+SC
+SC
